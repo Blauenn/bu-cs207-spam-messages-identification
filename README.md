@@ -6,4 +6,4 @@
   - Nawee M.
   - Yanisa W.
   - Onnaphat N.
-  - Saranrat ?.
+  - Saranrat T.
