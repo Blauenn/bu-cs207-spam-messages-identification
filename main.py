@@ -302,6 +302,7 @@ def compare_word_frequency(word):
 # CHANGE WORD TO COMPARE HERE!!!
 #####################
 word_to_compare = str(input("\nEnter word to compare: "))
+word_to_compare = word_to_compare.split()[0]
 
 compared_word = compare_word_frequency(word_to_compare.lower())
 
@@ -331,7 +332,7 @@ print(f"\nP(spam | {word_to_compare}): {spam_given_word:.2%}")
 
 word_given_spam = compared_word_spam / len(spam)
 
-print(f"P({word_to_compare} | spam): {word_given_spam:.2%}")
+print(f"\nP({word_to_compare} | spam): {word_given_spam:.2%}")
 
 ###
 
